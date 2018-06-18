@@ -1,0 +1,149 @@
+.getcar, .saleauto, .contacts{
+
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 29.5px;
+    text-transform: uppercase;
+
+}
+
+.logo{
+    width: 200px;
+    margin-top: -20px;
+    margin-left: 20px;
+
+}
+.number{
+    /*width: 214px;*/
+    /*height: 27px;*/
+    padding-right: 25px;
+    color: #222220;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400
+}
+/*.col-5,.col-3,  .col-4  {*/
+    /*!*border: 1px solid black;*!*/
+    /*text-align: center;*/
+/*}*/
+
+
+
+.callme{
+    padding-right: 25px;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.col-3{
+
+}
+.col-4{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    margin-right: 25px;
+}
+
+.container{
+    margin: 62px;
+
+}
+
+.title_container{
+    text-align: center;
+
+}
+
+.text1{
+    color: #171717;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.text2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    line-height: 42px;
+}
+
+.button1{
+    border-radius: 30px;
+    width: 301px;
+    height: 59px;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.75);
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #9a0611 0%, #af000d 100%);
+}
+
+.btn_salers{
+    width: 135px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.53px;
+}
+
+
+
+.button2{
+    border-radius: 30px;
+    width: 301px;
+    height: 59px;
+    background-color: #f2f2f2;
+    background-image: linear-gradient(to top, #cacaca 0%, #d4d4d4 100%);
+}
+
+.btn_avto{
+    width: 159px;
+    height: 18px;
+    color: #222220;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.53px;
+}
+
+.good_space1{
+    margin-left: 30px;
+}
+
+.good_space2{
+    margin-right: 65px;
+}
+
+
+.images{
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+.image_car{
+    text-align: center;
+}
+
+.test_b {
+    overflow: hidden;
+}
+
+.four_icons p {
+    /*width: 154px;*/
+    /*height: 37px;*/
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
