@@ -138,12 +138,129 @@
 }
 
 .four_icons p {
-    /*width: 154px;*/
-    /*height: 37px;*/
     color: #000000;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
+}
+
+.howsale{
+    margin-top: 106px;
+
+}
+
+.howauto{
+
+    color: #202020;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.getcarrow{
+    margin-top: 50px;
+    margin-left: 540px;
+}
+
+.redhowget{
+    font-weight:bold;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* Text style for "Get" */
+    color: #c10b19;
+}
+
+.otherhowget{
+    font-weight:bold
+    width: 74px;
+    height: 14px;
+    color: #191919;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.traditional_sale{
+    font-weight:bold;
+    margin-left: 165px;
+    width: 213px;
+    height: 17px;
+    color: #202020;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+
+}
+
+table{
+    margin-top: 23px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.textintable{
+    width: 301px;
+    height: 17px;
+    color: #202020;
+    font-family: "Open Sans", sans-serif;;
+    font-size: 18px;
+    font-weight: 400;
+}
+.yes_table{
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 30%;
+}
+
+.no_table{
+    text-align: center;
+    width: 30%;
+}
+
+.text_table1{
+    width: 82px;
+    height: 49px;
+    color: #149827;
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    /* Text style for "Д, А" */
+    letter-spacing: 1.37px;
+
+}
+
+.text_table2{
+    width: 108px;
+    height: 41px;
+    color: #c00000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    /* Text style for "Н, ЕТ" */
+    letter-spacing: 1.37px;
+
+}
+
+td{
+
+}
+
+.top_table{
+    border-top: 1px solid #1d2124;
+    padding: 15px;
+}
+
+
+
+.central_tabele{
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.end_table{
+    padding: 15px;
+    border-bottom: 1px solid #1d2124;
 }
