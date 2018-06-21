@@ -175,7 +175,7 @@
 }
 
 .otherhowget{
-    font-weight:bold
+    font-weight:bold;
     width: 74px;
     height: 14px;
     color: #191919;
@@ -263,4 +263,41 @@ td{
 .end_table{
     padding: 15px;
     border-bottom: 1px solid #1d2124;
+}
+.sale_auto_easy {
+    color: #202020;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    /* Text style for "Get," */
+    color: #c00000;
+    /* Text style for "Car" */
+    color: #1a1a1a;
+    /* Text style for "ПРОСТО" */
+    color: #1b1b1b;
+}
+.sale_auto_easy span {
+    font-size: 30px;
+}
+
+
+
+.black_text{
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.time_icons p{
+    color: #818181;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400
+}
+.time_icons p, span{
+    margin-top: 50px;
+    text-align: left;
+
 }
