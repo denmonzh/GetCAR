@@ -301,3 +301,80 @@ td{
     text-align: left;
 
 }
+
+.conditions{
+    margin-top: 20px;
+    color: #202020;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.no_or{
+    position: relative;
+
+}
+
+.red_text{
+    color: #c00000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.green_text{
+    color: #53912b;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.text_yes{
+    margin-left: 130px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+}
+
+.text_no{
+    margin-right: 20px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+}
+
+.img_no{
+    position: absolute;
+    height: 68px;
+    margin: 65px 0 0 30px;
+
+}
+
+.img_yes{
+    position: absolute;
+    height: 68px;
+    margin: 65px 0 0 610px;
+
+}
+
+.button3{
+    margin-top: 130px;
+    border-radius: 30px;
+    width: 382px;
+    height: 59px;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.75);
+    background-color: #c00000;
+    background-image: linear-gradient(to top, #9a0611 0%, #af000d 100%);
+}
+
+.btn_want{
+    width: 210px;
+    height: 21px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
