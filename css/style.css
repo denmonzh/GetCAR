@@ -378,3 +378,58 @@ td{
     font-weight: 400;
     text-transform: uppercase;
 }
+.footer{
+    height: 93px;
+    /*!*position: ; !* Фиксированное положение *!*!*/
+    /*left: 0; bottom: 0; !* Левый нижний угол *!*/
+    /*padding: 10px; !* Поля вокруг текста *!*/
+    background-color: #2b261f; /* Цвет фона */
+    /*color: #fff; !* Цвет текста *!*/
+    /*width: 100%; !* Ширина слоя *!*/
+    align-items: center;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    border-bottom: 13px solid #c00000;
+}
+
+.copyright{
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer_list{
+    color: white;
+    text-align: center;
+    display: flex;
+    /*justify-content: center;*/
+    align-content: center;
+
+
+
+
+}
+.list-inline{
+    margin: 0;
+}
+.footer_list li a{
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "Условия уч" */
+    letter-spacing: 0.3px;
+    margin: 10px;
+    /*display: flex;*/
+    /*align-items: center;*/
+
+}
+.footer_icons li :hover{
+    background-color: #429fff;
+}
