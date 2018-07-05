@@ -1,0 +1,299 @@
+/*COMMON*/
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+/*MENU*/
+
+.link-menu {
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 29.5px;
+    text-transform: uppercase;
+}
+
+.menu-col {
+    padding-top: 60px;
+}
+
+.number {
+    color: #222220;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu-right {
+    text-align: right;
+}
+
+/*main*/
+
+.sale_car {
+    color: #171717;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 26.23px;
+}
+
+.fast_sale_car {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    line-height: 42px;
+}
+
+.btn_mains {
+    width: 300px;
+    height: 60px;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.75);
+    border-radius: 30px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    /* Text style for "ПРОДАВЦАМ" */
+    letter-spacing: 0.53px;
+}
+
+.btn_mains.red {
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #9a0611 0%, #af000d 100%);
+    color: #ffffff;
+}
+
+.btn_mains.white {
+    background-color: #f2f2f2;
+    background-image: linear-gradient(to top, #cacaca 0%, #d4d4d4 100%);
+    color: black;
+}
+
+.four_icons p {
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main_title {
+    color: #202020;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.howsale{
+    margin-top: 106px;
+
+}
+
+.howauto{
+
+    color: #202020;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.getcarrow{
+    margin-top: 50px;
+    margin-left: 540px;
+}
+
+.redhowget{
+    font-weight:bold;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* Text style for "Get" */
+    color: #c10b19;
+}
+
+.otherhowget{
+    font-weight:bold;
+    width: 74px;
+    height: 14px;
+    color: #191919;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.traditional_sale{
+    font-weight:bold;
+    margin-left: 165px;
+    width: 213px;
+    height: 17px;
+    color: #202020;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+
+}
+/*TABLE START*/
+
+.overflowrow {
+    overflow-x: scroll;
+}
+
+table {
+    margin-top: 23px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.textintable {
+    width: 301px;
+    height: 17px;
+    color: #202020;
+    font-family: "Open Sans", sans-serif;;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.yes_table {
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 30%;
+}
+
+.no_table {
+    text-align: center;
+    width: 30%;
+}
+
+.text_table1 {
+    width: 82px;
+    height: 49px;
+    color: #149827;
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    /* Text style for "Д, А" */
+    letter-spacing: 1.37px;
+}
+
+.text_table2 {
+    width: 108px;
+    height: 41px;
+    color: #c00000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    /* Text style for "Н, ЕТ" */
+    letter-spacing: 1.37px;
+}
+
+.top_table {
+    border-top: 1px solid #1d2124;
+    padding: 15px;
+}
+
+.central_tabele {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.end_table {
+    padding: 15px;
+    border-bottom: 1px solid #1d2124;
+}
+
+/*TABLE END*/
+
+
+.black_text{
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.time_icons p{
+    color: #818181;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400
+}
+.time_icons p, span{
+    margin-top: 50px;
+    text-align: left;
+
+}
+.text_no{
+    color: #202020;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.spam_no{
+    color: #c00000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text_ok{
+    color: #202020;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.span_ok{
+    color: #53912b;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*footer*/
+
+footer{
+    background-color: #2b261f;
+    border-bottom: 7px solid red ;
+    /*width: auto;*/
+}
+.footer_list{
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "Условия уч" */
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 992px) {
+    .menu-right {
+        text-align: center;
+    }
+}
+@media (min-width: 320px) {
+    .link-menu {
+       font-size: 11px;
+    }
+}
+

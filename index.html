@@ -1,246 +1,266 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Anton Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-<div class="container-fluid home_page">
+
+<div class="container-fluid">
     <header>
-        <div class="row header">
-            <nav class="col-5 align-self-center">
+        <div class="row">
+            <div class="col-12 col-md-5 menu-col">
                 <ul class="nav ">
                     <li class="nav-item">
-                        <a class="nav-link getcar " href="#">О GETCAR</a>
+                        <a class="nav-link link-menu" href="#">О GETCAR</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link saleauto" href="#">Продать АВТО</a>
+                        <a class="nav-link link-menu" href="#">Продать АВТО</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link contacts" href="#">Контакты</a>
+                        <a class="nav-link link-menu" href="#">Контакты</a>
                     </li>
 
                 </ul>
-            </nav>
-
-            <div class="col-2 align-self-center d-flex">
-                <div class="logo align-items-end">
-                    <img src="img/ddddd.png" alt="dddd">
-                </div>
             </div>
-
-            <div class="col-5 align-self-center d-flex flex-column align-items-end ">
-                <span class=" number"><img class="icon" src="img/----------------------.png" height="32" width="32"/>(097) 555-87-98</span>
-                <a href="#" class="callme">Перезвоните мне</a>
+            <div class="col-12 col-md-2 text-center">
+                <img class="img-fluid mx-auto" src="imgs/logo.png">
+            </div>
+            <div class="col-12 col-md-5 menu-col menu-right">
+                <div>
+                    <img class="img-fluid mx-auto" src="imgs/call.png"> <span class="number">(097) 555-87-98</span>
+                </div>
             </div>
         </div>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="title_container col justify-content-center">
-                <span class="text1">Меняем привычный взгляд на продажу автомобилей</span><br>
-                <span class="text2">Быстро <img src="img/ellipse-1.png">  Просто <img src="img/ellipse-1.png">  Безопасно </span>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row justify-content-between ">
-            <div class="col-3 good_space1">
-                <button class="button1"><a href="#" class="btn_salers">ПРОДАВЦАМ</a></button>
-            </div>
-            <div class="col-3 good_space2">
-                <button class="button2"><a href="#" class="btn_avto">АВТОДИЛЛЕРАМ</a></button>
-                <div>
-                </div>
-            </div>
-
-            <!--Убрать контейнер, он уже есть в родительском классе-->
-            <div class="container">
-                <div class="row">
-                    <div class="col image_car">
-                        <div class="images">
-                            <img src="img/1.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row four_icons">
-            <div class="col-3 text-center">
-                <img src="img/icon1.png" alt="icon_1">
-                <p>Лучшая цена от
-                    автодилеров</p>
-            </div>
-            <div class="col-3 text-center">
-                <img src="img/icon2.png" alt="icon_2">
-                <p>Самый быстрый
-                    способ продажи</p>
-            </div>
-            <div class="col-3 text-center">
-                <img src="img/icon3.png" alt="icon_3">
-                <p>Моментальный
-                    расчет</p>
-            </div>
-            <div class="col-3 text-center">
-                <img src="img/icon4.png" alt="icon_4">
-                <p>прозрачно и
-                    безопасно</p>
-            </div>
-        </div>
+    <main>
         <div class="container">
-            <div class="row howsale">
+
+            <div class="row margin-top-60">
                 <div class="col-12 text-center">
-                    <span class="howauto">Способы продажи автомобилей</span>
+                    <p class="sale_car">
+                        Меняем привычный взгляд на продажу автомобилей
+                    </p>
+                    <p class="fast_sale_car">
+                        Быстро   Просто   Безопасно
+                    </p>
                 </div>
             </div>
-            <div class="rowsale getcarrow">
-                <div class="col">
-                    <span class="redhowget">GET<span class="otherhowget">CAR</span></span>
-                    <span class="traditional_sale">Традиционная продажа</span>
-                </div>
-            </div>
-
-            <table>
-                <tbody>
-                <tr>
-                    <td class="start_table central_tabele top_table textintable"  >Максимальная цена</td>
-                    <td rowspan="4" class="yes_table end_table top_table"><span class="text_table1">ДА</span></td>
-                    <td rowspan="4" class="no_table end_table top_table"><span class="text_table2">НЕТ</span></td>
-                </tr>
-                <tr>
-                    <td class="central_tabele textintable">Отсутствие рисков мошенничества</td>
-
-                </tr>
-                <tr>
-                    <td class="central_tabele textintable">Отсутствие предпродажных  затрат</td>
-
-                </tr>
-                <tr>
-                    <td class="end_table textintable">Продажа за 2 часа</td>
-
-                </tr>
-                </tbody>
-            </table>
-        </div>
-
-
-
-             
-        <div>
             <div class="row">
-                <div class="col-12">
-                    <p class="sale_auto_easy text-center">Продать авто с <span class="redhowget">Get</span>Car ПРОСТО</p>
+                <div class="col-12 col-md-4 text-center">
+                    <button type="button" class="btn btn_mains red">ПРОДАВЦАМ</button>
+                </div>
+                <div class="col-12 col-md-4">
+
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <button type="button" class="btn btn_mains white">АВТОДИЛЕРАМ</button>
                 </div>
             </div>
-            <div class="row time_icons">
-                <div class="col-3 text-center">
-                    <img src="img/time%20(2).png" alt="icon_1">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img class="img-fluid mx-auto" src="imgs/maincar.png" alt="">
+                </div>
+            </div>
+
+
+
+            <div class="row four_icons">
+                <div class="col-md-3 text-center">
+                    <img src="imgs/icon1.png" alt="icon_1">
+                    <p class="margin-top-10">Лучшая цена от
+                        автодилеров</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="imgs/icon2.png" alt="icon_2">
+                    <p class="margin-top-10">Самый быстрый
+                        способ продажи</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="imgs/icon3.png" alt="icon_3">
+                    <p class="margin-top-10">Моментальный
+                        расчет</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="imgs/icon4.png" alt="icon_4">
+                    <p class="margin-top-10">прозрачно и
+                        безопасно</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-center margin-top-40">
+                    <p class="main_title">Способы продажи автомобилей</p>
+                </div>
+            </div>
+
+            <div class="row overflowrow">
+                <div class="col-12">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td></td>
+                            <td class="text-center">
+                                <span class="redhowget"> GET</span><span class="otherhowget">CAR</span>
+                            </td>
+                            <td class="traditional_sale text-center">
+                                Традиционная продажа
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="start_table central_tabele top_table textintable"  >Максимальная цена</td>
+                            <td rowspan="4" class="yes_table end_table top_table"><span class="text_table1">ДА</span></td>
+                            <td rowspan="4" class="no_table end_table top_table"><span class="text_table2">НЕТ</span></td>
+                        </tr>
+                        <tr>
+                            <td class="central_tabele textintable">Отсутствие рисков мошенничества</td>
+
+                        </tr>
+                        <tr>
+                            <td class="central_tabele textintable">Отсутствие предпродажных  затрат</td>
+
+                        </tr>
+                        <tr>
+                            <td class="end_table textintable">Продажа за 2 часа</td>
+
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!---->
+            <div class="row">
+                <div class="col-12 text-center margin-top-40">
+                    <p class="main_title">
+                        Продать авто с GetCar ПРОСТО
+                    </p>
+                </div>
+            </div>
+
+            <!---->
+            <div class="row time_icons margin-top-40">
+                <div class="col-md-3 text-center">
+                    <img src="imgs/time%20(2).png" alt="icon_1">
                     <p><span class="black_text">Запишитесь на аукцион</span><br>
                         Вы можете выбрать удобное для Вас время и место
                     </p>
                 </div>
-                <div class="col-3 text-center">
-                    <img src="img/time%20(4).png" alt="icon_1">
+                <div class="col-md-3 text-center">
+                    <img src="imgs/time%20(4).png" alt="icon_1">
                     <p> <span class="black_text">Пройдите тех.осмотр</span><br>
                         Никаких поездок. Наши эксперты осмотрят автомобиль в Вашем присутствии</p>
                 </div>
-                <div class="col-3 text-center">
-                    <img src="img/time%20(1).png" alt="icon_1">
+                <div class="col-md-3 text-center">
+                    <img src="imgs/time%20(1).png" alt="icon_1">
                     <p><span class="black_text">Наблюдайте за торгами</span><br>
                         Получите максимальную цену от дилеров во время онлайн-аукциона
 
                     </p>
                 </div>
-                <div class="col-3 text-center">
-                    <img src="img/time%20(3).png" alt="icon_1">
+                <div class="col-md-3 text-center">
+                    <img src="imgs/time%20(3).png" alt="icon_1">
                     <p><span class="black_text">Получить деньги</span><br>
                         Подпишите бумаги и получите деньги сразу
                     </p>
                 </div>
             </div>
+            <!---->
 
-        </div>
-
-
-
-
-
-        <div class="container">
-            <div class="row conditions">
-                <span class="conditions "> Условия продажи авто</span>
-            </div>
             <div class="row ">
-                <div class="col-12 no_or d-flex justify-content-between ">
-                    <div class="img_no">
-                        <img src="img/no.png"/>
-                    </div>
-                    <span class="text_yes">
-                        <span class="red_text">Не допускаються автомобили :</span><br> Не допускаются автомобили <br> После ДТП (не на ходу) <br> Кредитные автомобили <br> Нерастаможенные автомобили <br> До 2009 года выпуска <br> Продающиеся по доверенности <br> Под запретом отчуждения (арест или залог)
-                    </span>
-                    <div class="img_yes">
-                        <img src="img/ok.png"/>
-                    </div>
-                    <span class="text_no">
-                        <span class="green_text">К участию в аукционе приглашаются:</span><br>
-                        Владельцы авто, соответствующие <br>
-                        требованиям аукциона
-                    </span>
+                <div class="col-12 text-center margin-top-40">
+                    <p class="main_title">
+                        Условия продажи авто
+                    </p>
                 </div>
             </div>
-            <div class="row  justify-content-center" >
-                    <button class="button3"><a href="#" class="btn_want">ХОЧУ НА АУКЦИОН</a></button>
+            <!---->
+            <div class="row margin-top-40">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="img-fluid mx-auto" src="imgs/no.png">
+                        </div>
+                        <div class="col-9">
+                            <p class="text_no"><span class="spam_no">Не допускаются автомобили:</span><br>
+                            После ДТП (не на ходу)<br>
+                            Кредитные автомобили<br>
+                            Нерастаможенные автомобили<br>
+                            До 2009 года выпуска<br>
+                            Продающиеся по доверенности<br>
+                                Под запретом отчуждения (арест или залог)<br></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="img-fluid mx-auto" src="imgs/ok.png">
+                        </div>
+                        <div class="col-9">
+                            <p class="text_ok"><span class="span_ok">К участию в аукционе приглашаются:</span><br>
+                            Владельцы авто, соответствующие<br>
+                                требованиям аукциона</p><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="row text-center margin-top-40">
+                <div class="col-12">
+                    <button type="button" class="btn btn_mains red">Хочу на аукцион</button>
+                </div>
             </div>
         </div>
-
-
-
-
-    </div>
-
-    <div class="row footer align-items-center ">
-        <div class="col-2 copyright">
-            <span>&copy;2016 GetCar</span>
-        </div>
-
-        <div class="col-8 footer_list  ">
-            <ul class="list-inline ">
-                <li class="list-inline-item">
-                    <a href="#">Условия участия в аукционе   </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">Пользовательское соглашение     </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">персональные данные    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">КОНТАКТЫ   </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">FAQ   </a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="col-2 footer_icons">
-            <ul class="list-inline ">
-                <li class="list-inline-item "><a href="#"><img src="img/fb.png"></a> </li>
-                <li class="list-inline-item"><a href="#"><img src="img/tw.png"></a> </li>
-                <li class="list-inline-item"><a href="#"><img src="img/google.png"></a> </li>
-                <li class="list-inline-item"><a href="#"><img src="img/vk.png"></a> </li>
-            </ul>
-        </div>
-    </div>
+    </main>
 </div>
+<!--footer-->
+<footer class="container-fluid">
+    <div class="row  margin-top-30">
+        <div class="col-2 text-center">
+            <p class="footer_list">&copy;2016 GetCar</p>
+        </div>
+        <div class="col-8">
+            <ul class="list-inline   ">
+                <li class="list-inline-item ">
+                    <a class="footer_list" href="#">Условия участия в аукционе   </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="footer_list" href="#">Пользовательское соглашение     </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="footer_list" href="#">персональные данные    </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="footer_list" href="#">КОНТАКТЫ   </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="footer_list" href="#">FAQ   </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-2">
+            <ul class="list-inline ">
+                <li class="list-inline-item "><a href="#"><img src="imgs/fb.png"></a> </li>
+                <li class="list-inline-item"><a href="#"><img src="imgs/tw.png"></a> </li>
+                <li class="list-inline-item"><a href="#"><img src="imgs/google.png"></a> </li>
+                <li class="list-inline-item"><a href="#"><img src="imgs/vk.png"></a> </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </html>
